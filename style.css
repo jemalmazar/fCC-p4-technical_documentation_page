@@ -71,7 +71,48 @@ table {
 # Styles
 --------------------------------------------------------------*/
 
-/* Main */
-body {
-    background: red;
+/* Nav Bar */
+
+.navbar {
+    display: grid;
+    place-items: center;
+    grid-gap: 20px;
+}
+
+.nav-img {
+    height: auto;
+    width: 25%;
+    padding-top: 20px;
+}
+
+.nav-header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.15em;
+}
+
+.nav-menu {
+    height: 20vh;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 6px 0;
+    border: 1px solid #000;
+}
+
+.nav-menu li {
+    padding: 6px 30px;
+}
+
+.nav-menu li:hover {
+    background-color: #F4F5F6;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link-sub {
+    font-size: 0.75em;
+    padding-left: 1.5em;
 }
