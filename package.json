@@ -1,0 +1,26 @@
+{
+  "name": "technical_documentation_page",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Technical Docoumentation Page project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemalmazar/fCC-p4-technical_documentation_page.git"
+  },
+  "author": "Jeremiah Almazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemalmazar/fCC-p4-technical_documentation_page/issues"
+  },
+  "homepage": "https://github.com/jemalmazar/fCC-p4-technical_documentation_page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0"
+  }
+}
