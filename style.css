@@ -10,7 +10,8 @@ html {
   }
 
 :root {
-    --brandorange: #FE595F;
+    --brandredorange: #FE595F;
+    --brandorange: #FC642D;
 }
 
 /*--------------------------------------------------------------
@@ -87,7 +88,7 @@ table {
 
 .nav-header {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.15em;
+    font-size: 1.5em;
 }
 
 .nav-menu {
@@ -97,6 +98,7 @@ table {
     overflow-x: hidden;
     padding: 6px 0;
     border: 1px solid #000;
+    margin: 0;
 }
 
 .nav-menu li {
@@ -108,6 +110,7 @@ table {
 }
 
 .nav-link {
+    display: block;
     color: #000000;
     text-decoration: none;
 }
@@ -116,3 +119,165 @@ table {
     font-size: 0.75em;
     padding-left: 1.5em;
 }
+
+/* Main */
+
+em, strong, ol, ul {
+    all: revert;
+}
+
+.main-doc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: main;
+    grid-gap: 20px;
+    padding: 20px;
+    line-height: 1.25;
+}
+
+.main-doc p {
+    padding: 0.5em 0;
+}
+
+.main-doc ul {
+    margin: 0.5em 0;
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    padding: 0 0 0.5em;
+}
+
+.sub-header {
+    font-family: 'Raleway', sans-serif;
+}
+
+.code-block-header  {
+    font-weight: bold;
+    padding: 0 !important;
+}
+
+code {
+    display: block;
+    font-family: monospace;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.25;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+  }
+
+  .inline-code {
+    font-family: monospace;
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+  }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: footer;
+    height: 50px;
+}
+
+.footer-separator {
+    align-self: start;
+    border: 2px solid var(--brandredorange);
+    width: 300px;
+}
+
+.signature {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 0.5em 0 1em;
+}
+
+.signature a {
+    color: var(--brandredorange);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signature a:hover {
+    color: var(--brandorange);
+    text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# Media Breakpoints
+--------------------------------------------------------------*/
+
+/* Tablet */
+@media (min-width: 760px) { 
+
+    body {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        grid-template-areas: 
+        "navbar main"
+        "empty footer";
+    }
+
+    /* Nav Bar */
+
+    .navbar {
+        display: grid;
+        grid-template-rows: 1fr 1fr 15fr;
+        grid-template-areas: 
+        "img"
+        "header"
+        "menu";
+        place-items: start center;
+        grid-gap: 15px;
+        position: fixed;
+        height: 100vh;
+        width: 250px;
+        border-right: 1px solid #000;
+    }
+
+    .nav-img {
+        width: 40%;
+        grid-area: img;
+    }
+
+    .nav-header {
+        grid-area: header;
+        padding: 0 2em;
+        text-align: center;
+    }
+
+    .nav-menu {
+        grid-area: menu;
+        height: auto;
+        border: none;
+        border-top: 1px solid #000;
+    }
+
+    .nav-link {
+        font-size: 1.25em;
+    }
+
+    .nav-link-sub {
+        font-size: 1.15em;
+        padding-left: 0.75em;
+    }
+
+ }
+
+ /* Large Tablet */
+
+ @media (min-width: 1024px) {  
+
+ }
