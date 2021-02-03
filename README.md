@@ -19,7 +19,7 @@ A technical documentation page for the Airbnb CSS/Sass Style Guide.
 **Little Things I Learned**
 
 - the CSS shorthand property `all`
-- the CSS keyword 'revert'
+- the CSS keyword `revert`
 - the use of `all: revert` to reset all cascaded properties of an element
 - using CSS Grid to change to a vertical nav bar layout
 
