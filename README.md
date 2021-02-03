@@ -1,6 +1,6 @@
 # freeCodeCamp Responsive Web Design Project 3 - Product Landing Page
 
-View deployed web page at: https://jemalmazar.github.io/fCC-pfCC-p4-technical_documentation_page/
+View deployed web page at: https://jemalmazar.github.io/fCC-p4-technical_documentation_page/
 
 **Project Description**
 
