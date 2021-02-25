@@ -1,4 +1,4 @@
-# freeCodeCamp Responsive Web Design Project 4 - Technical Documentation Page
+# freeCodeCamp: Responsive Web Design Project 4 - Technical Documentation Page
 
 View deployed web page at: https://jemalmazar.github.io/fCC-p4-technical_documentation_page/
 
