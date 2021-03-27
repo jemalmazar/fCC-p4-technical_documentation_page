@@ -109,7 +109,8 @@ table {
     background-color: #F4F5F6;
 }
 
-.nav-link {
+.nav-link,
+.nav-link-sub {
     display: block;
     color: #000000;
     text-decoration: none;
