@@ -220,7 +220,7 @@ code {
 
 /* Tablet */
 
-    @media (min-width: 760px) { 
+    @media (min-width: 43em) { 
 
         body {
             display: grid;
@@ -278,7 +278,7 @@ code {
 
  /* Large Tablet */
  
-    @media (min-width: 1000px) {
+    @media (min-width: 62em) {
 
         body {
             grid-template-columns: 300px 1fr;
